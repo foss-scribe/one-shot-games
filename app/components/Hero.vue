@@ -7,8 +7,7 @@
                 <h1 class="text-8xl font-bold py-12">One-Shot Wonders</h1>
                 <p class="italic text-3xl">Play when you can, Run when you want.</p>
                     <p class="py-6">
-                        Join our Northside Melbourne community for weekly one-shot roleplaying games. Free, friendly,
-                        and open to all.
+                        Join our Northside Melbourne community for weekly one-shot roleplaying games. Free, friendly, and open to all.
                     </p>
                 <div class="flex justify-center gap-4 py-6">
                         <a class="btn btn-primary" href="https://aftergame.app/groups/one-shot-wonders-2656"
