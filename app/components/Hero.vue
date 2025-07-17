@@ -19,9 +19,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-import { fetchData } from '@/utils/discord_stats.js';
-
-const stats = await fetchData('https://discord.com/api/invites/TrFcdswX?with_counts=true');
-</script>
