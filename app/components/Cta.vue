@@ -1,5 +1,5 @@
 <template>
-    <div class="hero bg-accent   p-24">
+    <div class="hero bg-accent p-24">
         <div class="hero-content accent-accent-content text-center">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">Ready to Join the Next Game?</h1>

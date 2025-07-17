@@ -9,4 +9,8 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ["~/assets/app.css"],
+  icon: {
+    mode: 'css',
+    cssLayer: 'base'
+  }
 })

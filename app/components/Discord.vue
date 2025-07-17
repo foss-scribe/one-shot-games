@@ -19,28 +19,36 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">💬</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:chat-outline-rounded" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Active Chat</div>
                         <div>Discuss games, share memes, and stay connected between meetups.</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">📅</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:edit-calendar-outline-rounded" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Event Planning</div>
                         <div>Get real-time updates on events and find the games you want to play.</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">📊</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="ri:chat-poll-line" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Post, Poll, Play</div>
                         <div>Post your game proposal, see who wants to play and when, then run it.</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">🚀</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="iconoir:community" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Welcoming Community</div>
                         <div>Friendly faces ready to help newcomers feel at home.</div>
@@ -59,5 +67,6 @@
 <script setup>
 import {fetchData} from '@/utils/discord_stats.js';
 
-const stats = await fetchData('https://discord.com/api/invites/TrFcdswX?with_counts=true');
+const stats = await fetchData('https://discord.com/api/invites/y5PEWaAb?with_counts=true');
+// const stats = await fetchData('https://discord.com/api/invites/TrFcdswX?with_counts=true');
 </script>

@@ -18,28 +18,36 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">📍</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:list-alt-check-outline-rounded"  />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Reserve Your Spot</div>
                         <div>RSVP to One-Shot events and secure your place at the table. No more wondering if there's room!</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">🤝</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:connect-without-contact-outline-rounded" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Connect with Fellow Gamers</div>
                         <div>See who's attending and discover new gaming buddies who share your interests.</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">📊</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:circle-notifications-outline-rounded" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Stay Informed</div>
                         <div>Get notified of upcoming events and member posts.</div>
                     </div>
                 </div>
                 <div class="flex gap-6">
-                    <div class="p-2 text-4xl">🚀</div>
+                    <div class="p-2 text-4xl">
+                        <Icon name="material-symbols:cloudbuild" />
+                    </div>
                     <div>
                         <div class="text-xl font-bold">Built for Gaming Communities</div>
                         <div>Unlike generic platforms, AfterGame understands gaming culture and tabletop enthusiasts.</div>

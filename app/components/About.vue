@@ -37,7 +37,7 @@
                         class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <p>Join {{stats.approximate_member_count}}+ active members</p>
+                    <p><a href="https://discord.com/invite/y5PEWaAb" target="_blank">Join {{stats.approximate_member_count}}+ active members</a></p>
                 </div>
             </div>
         </div>
@@ -47,5 +47,5 @@
 <script setup>
 import {fetchData} from '@/utils/discord_stats.js';
 
-const stats = await fetchData('https://discord.com/api/invites/TrFcdswX?with_counts=true');
+const stats = await fetchData('https://discord.com/api/invites/y5PEWaAb?with_counts=true');
 </script>
