@@ -1,8 +1,8 @@
 <template>
-    <div class="flex gap-12 p-12">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24 bg-neutral text-neutral-content">
         <div>
-            <div class="flex gap-6">
-                <div class="p-2 border rounded-2xl border-indigo-500">
+            <div class="flex gap-6 mb-12">
+                <div class="p-2">
                     <svg width="40" height="40" viewBox="0 0 71 55" fill="none">
                         <g clip-path="url(#clip0)">
                             <path
@@ -13,11 +13,11 @@
                 </div>
                 <div>
                     <a name="discord" />
-                    <h2 class="text-2xl font-bold">Join Our Discord</h2>
+                    <h2 class="text-4xl">Join Our Discord</h2>
                     <div>The heart of our community - where we chat, plan, and connect daily</div>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="flex gap-6">
                     <div class="p-2 text-4xl">💬</div>
                     <div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <a class="btn btn-primary" href="https://discord.com/invite/TrFcdswX" target="_blank">Join Discord Server</a>
+            <a class="btn btn-primary my-6 w-full" href="https://discord.com/invite/TrFcdswX" target="_blank">Join Discord Server</a>
             <p>{{ stats.approximate_member_count }} members ({{ stats.approximate_presence_count }} online) • Active daily • All welcome</p>
         </div>
         <div>

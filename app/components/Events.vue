@@ -1,17 +1,22 @@
 <template>
-    <div class="flex gap-12 p-12">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24">
         <div>
             <div>
-                <div class="flex">
-                    <img src="/assets/images/aftergame-light.png" alt="AfterGame Logo" class="w-24 mb-4" />
-                    <div>
+                <div class="flex mb-12">
+                    <div class="dark:hidden">
+                        <img src="/assets/images/aftergame-light.png" alt="AfterGame Logo" class="w-24 mb-4" />
+                    </div>
+                    <div class="hidden dark:block">
+                        <img src="/assets/images/aftergame-dark.png" alt="AfterGame Logo" class="w-24 mb-4" />
+                    </div>
+                    <div class="ml-4">
                         <a name="events" />
-                        <h2 class="text-2xl font-bold">Upcoming Events</h2>
+                        <h2 class="text-4xl">Upcoming Events</h2>
                         <div>Don't miss out on the action - RSVP on AfterGame and join fellow One-Shot Wonders members!</div>
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="flex gap-6">
                     <div class="p-2 text-4xl">📍</div>
                     <div>
@@ -41,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <a class="btn btn-primary">RSVP to One Shot Events</a>
+            <a class="btn btn-primary my-6 w-full">RSVP to One Shot Events</a>
             <p>Free to join • RSVP to reserve your spot • Connect with fellow gamers</p>
         </div>
         <div>

@@ -1,8 +1,8 @@
 <template>
-    <div class="flex gap-6 p-12">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24">
         <div>
             <a name="about" />
-            <h2 class="text-4xl">About One-Shot Wonders</h2>
+            <h2 class="text-4xl mb-12">About One-Shot Wonders</h2>
             <div>We're a casual tabletop gaming group based in Melbourne's inner north. Every Thursday night from 7-11pm, we run one-shot adventures - perfect for players who love roleplaying but can't commit to a long-term campaign.</div>
 
             <div class="flex flex-col gap-4 mt-6">
