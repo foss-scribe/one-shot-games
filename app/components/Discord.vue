@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24 bg-neutral text-neutral-content">
+    <div class="bg-neutral text-neutral-content">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24 bg-neutral text-neutral-content max-w-[1600px]">
         <div>
             <div class="flex gap-6 mb-12">
                 <div class="p-2">
@@ -61,6 +62,7 @@
         <div>
             <iframe src="https://discord.com/widget?id=1334746469676093534&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
+    </div>
     </div>
 </template>
 

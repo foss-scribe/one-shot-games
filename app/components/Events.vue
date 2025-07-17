@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24">
+    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24 max-w-[1600px]">
         <div>
             <div>
                 <div class="flex mb-12">

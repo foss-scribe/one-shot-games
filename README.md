@@ -1,75 +1,16 @@
-# Nuxt Minimal Starter
+# One-Shot Wonders
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A website for One-Shot Wonders, an RPG gaming community based in Melbourne's northern suburbs.
 
-## Setup
+## Tech stack
 
-Make sure to install dependencies:
+* NuxtJS
+* DaisyUI
+* Iconify icons
+* Deployed with GitHub actions, NuxtHub and hosted on CloudFlare
 
-```bash
-# npm
-npm install
+## Copyright & licence
 
-# pnpm
-pnpm install
+Text copyright ©️ Gerald Lock, 2025.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Code by Chris Gardiner-Bill, released under the public domain.
