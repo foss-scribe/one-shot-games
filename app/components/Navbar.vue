@@ -16,7 +16,7 @@
                     <li><a href="https://aftergame.app/groups/one-shot-wonders-2656">Join on AfterGame</a></li>
                 </ul>
             </div>
-            <a class="btn btn-ghost text-xl">One-Shot Wonders</a>
+             <img src="/assets/images/osg-logo.png" alt="One-Shot Wonders Logo" class="h-10 w-10 rounded-full mr-2">
         </div>
 
         <div class="navbar-end hidden lg:flex">
