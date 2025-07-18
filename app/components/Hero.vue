@@ -1,10 +1,10 @@
 <template>
-    <div class="hero min-h-screen"
+    <div class="hero lg:min-h-screen"
         style="background-image: url(https://img1.wsimg.com/isteam/getty/1744028379);">
         <div class="hero-overlay"></div>
         <div class="hero-content text-neutral-content text-center">
             <div class="max-w-md">
-                <h1 class="text-8xl font-bold py-12">One-Shot Wonders</h1>
+                <h1 class="text-5xl lg:text-8xl font-bold py-12">One-Shot Wonders</h1>
                 <p class="italic text-3xl">Play when you can,<br>Run when you want.</p>
                     <p class="py-6">
                         Join our Northside Melbourne community for weekly one-shot roleplaying games. Free, friendly, and open to all.
