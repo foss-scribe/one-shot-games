@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row gap-4 md:gap-20 p-6 md:p-24 max-w-[1600px]">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-20 p-6 lg:p-24 max-w-[1600px]">
         <div>
             <div>
                 <div class="flex mb-12">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div class="flex gap-6">
                     <div class="p-2 text-4xl">
                         <Icon name="material-symbols:list-alt-check-outline-rounded"  />
@@ -87,5 +87,16 @@
     max-width: 100%;
     min-height: 500px;
     height: 100%;
+}
+
+.aftergame-continer iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid red;
 }
 </style>
