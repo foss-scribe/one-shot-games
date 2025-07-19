@@ -57,14 +57,18 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-primary my-6 w-full" href="https://discord.com/invite/TrFcdswX" target="_blank">Join
+                <a class="btn btn-primary my-6 w-full" :href="`https://discord.com/invite/${ DISCORD_INVITE_CODE}`" target="_blank">Join
                     Discord Server</a>
                 <p>{{ stats.approximate_member_count }} members ({{ stats.approximate_presence_count }} online) • Active
                     daily • All welcome</p>
             </div>
             <div>
-                <iframe src="https://discord.com/widget?id=1334746469676093534&theme=dark" width="350" height="500"
-                    allowtransparency="true" frameborder="0"
+                <iframe src="https://discord.com/widget?id=1334746469676093534&theme=dark"    
+                    width="350" 
+                    height="500"
+                    style="border:1px solid #c6c5d0; border-radius: 8px;"
+                    allowtransparency="true" 
+                    frameborder="0"
                     sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </div>
@@ -73,7 +77,7 @@
 
 <script setup>
 import { fetchData } from '@/utils/discord_stats.js';
+const DISCORD_INVITE_CODE = import.meta.env.VITE_DISCORD_INVITE_CODE;
 
-const stats = await fetchData('https://discord.com/api/invites/y5PEWaAb?with_counts=true');
-// const stats = await fetchData('https://discord.com/api/invites/TrFcdswX?with_counts=true');
+const stats = await fetchData(`https://discord.com/api/invites/${DISCORD_INVITE_CODE}?with_counts=true`);
 </script>

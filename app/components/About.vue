@@ -50,8 +50,8 @@
                         alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <p><a href="https://discord.com/invite/y5PEWaAb" target="_blank">Join
-                            {{ stats.approximate_member_count }}+ active members</a></p>
+                    <p><a :href="`https://discord.com/invite/${ DISCORD_INVITE_CODE}`" target="_blank">Join
+                            {{ stats.approximate_member_count }}+ active members on Discord</a></p>
                 </div>
             </div>
         </div>
@@ -60,6 +60,7 @@
 
 <script setup>
 import { fetchData } from '@/utils/discord_stats.js';
+const DISCORD_INVITE_CODE = import.meta.env.VITE_DISCORD_INVITE_CODE;
 
-const stats = await fetchData('https://discord.com/api/invites/y5PEWaAb?with_counts=true');
+const stats = await fetchData(`https://discord.com/api/invites/${DISCORD_INVITE_CODE}?with_counts=true`);
 </script>
