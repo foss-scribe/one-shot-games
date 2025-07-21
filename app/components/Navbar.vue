@@ -13,7 +13,7 @@
                     <li><a href="#events">Events</a></li>
                     <li><a href="#discord">Discord</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="https://aftergame.app/groups/one-shot-wonders-2656">Join on AfterGame</a></li>
+                    <li><a :href="`https://discord.com/invite/${ DISCORD_INVITE_CODE}`" target="_blank">Join One-Shot Wonders</a></li>
                 </ul>
             </div>
              <img src="/assets/images/osg-logo.png" alt="One-Shot Wonders Logo" class="h-10 w-10 rounded-full mr-2">
@@ -25,9 +25,11 @@
                 <li><a href="#discord">Discord</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
-            <a class="btn btn-primary" href="https://aftergame.app/groups/one-shot-wonders-2656" target="_blank">Join on
-                AfterGame</a>
+            <a class="btn btn-primary" :href="`https://discord.com/invite/${ DISCORD_INVITE_CODE}`" target="_blank">Join One-Shot Wonders</a>
             <ThemeSwitcher />
         </div>
     </div>
 </template>
+<script setup>
+const DISCORD_INVITE_CODE = import.meta.env.VITE_DISCORD_INVITE_CODE;
+</script>
