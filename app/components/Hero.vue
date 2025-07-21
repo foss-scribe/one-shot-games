@@ -10,8 +10,7 @@
                         Join our Northside Melbourne community for weekly one-shot roleplaying games. Free, friendly, and open to all.
                     </p>
                 <div class="flex justify-center gap-4 py-6">
-                        <a class="btn btn-primary" href="https://aftergame.app/groups/one-shot-wonders-2656"
-                            target="_blank">Join on AfterGame</a>
+                        <a class="btn btn-primary" :href="`https://discord.com/invite/${ DISCORD_INVITE_CODE}`" target="_blank">Join One-Shot Games</a>
                         <a href="#events" class="btn btn-primary">View Upcoming Events</a>
                     </div>
                     <p>Free to join • All skill levels welcome • New members encouraged!</p>
@@ -19,3 +18,6 @@
         </div>
     </div>
 </template>
+<script setup>
+const DISCORD_INVITE_CODE = import.meta.env.VITE_DISCORD_INVITE_CODE;
+</script>
